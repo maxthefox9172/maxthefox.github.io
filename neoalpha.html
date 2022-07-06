@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Max's website - Neoalpha troubleshooting</title>
+  </head>
+  <body>
+    <h2><a href="https://maxthefox9172.github.io/maxthefox.github.io/">Go back</a></h2>
+    <h2>Linux troubleshooting</h2>
+    <h3>How do I play Neoalpha on Linux?</h3>
+    <h4>(Tested on Ubuntu 20.04 and Pop!_OS 20.04/22.04) In order to play Neoalpha on Linux you'll need to install the Zulu build of OpenJDK. OpenJDK itself won't launch Neoalpha. You can find these builds at <a href="https://www.azul.com/downloads/?package=jdk#download-openjdk">this link</a>. Note that the '.deb' file format can be installed only on Debian-based distributions (e.g. Ubuntu, Linux Mint, Pop!_OS) meanwhile '.rpm' file format can be installed only on Fedora Linux-based distributions (e.g. Red Hat Linux, Oracle Linux, CentOS).</h4>
+    <h3>I installed the Zulu build of OpenJDK but now I get stuck at a black screen. How do I fix that?</h3>
+    <h4>I'm still trying to figure out how to exactly fix this. You can try updating / installing graphics card drivers. Replacing the LWJGL files also supposedly fixes the issue (instructions on how to do that below). I can't guarantee that these solutions will work though.</h4>
+    <h3>How to replace the LWJGL files?</h3>
+    <h4>Go to the LWJGL 2 website (<a href ="https://legacy.lwjgl.org/">link here</a>) and click 'Downloads' on the left side. Click the 'LWGJL 2.9.3' link. You will be redirected to SourceForge. Download 'lwjgl-2.9.3.zip'. Open the '.neoalpha' folder (should be located at /home/yourlinuxdistusernamehere/.neoalpha/. If you don't see it, you must click the 'Show Hidden Files' option.). In the '.bin' folder replace 'jinput.jar', 'lwjgl.jar' and 'lwjgl_util.jar' from the zip file (these files are located in the zip file at '/lwjgl2.9.3/jar'). In the 'natives' folder ('/home/yourlinuxdistusernamehere/.neoalpha/bin/natives/') replace all of the files with the files from the zip file (files from the zip are located at '/lwjgl2.9.3/native/linux').
+  </body>
+</html>
