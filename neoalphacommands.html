@@ -5,8 +5,129 @@
     <title>Max's website - Neoalpha server commands</title>
   </head>
   <body>
-    <h2><a href="home">Home</a></h2>
-    <h2><a href="neoalpha">Go back</a></h2>
-    <h2>Coming soon</h2>
+    <h2><a href="home">Home</a></p>
+    <h2><a href="neoalpha">Go back</a></p>
+    <h3>Note that not all commands are available to everyone and some commands are exclusively available for mods and/or admins.</h3>
+    <p>[] = required <> = optional</p>
+    <p>/help [Page] - Shows a list of commands. 7 per page.</p>
+    <p>/playerlist - Shows a list of players</p>
+    <p>/reload - Reloads config</p>
+    <p>/banlist <IP or bans> - Gives a list of bans</p>
+    <p>/banip [Player] <Reason> - Bans the player's IP</p>
+    <p>/unbanip [IP] - Unbans the IP</p>
+    <p>/ban [Player] <Reason> - Bans the player</p>
+    <p>/unban [Player] - Unbans the player</p>
+    <p>/mute [Player] - Toggles mute on player.</p>
+    <p>/tp [source] [target] - Teleports player to player or coords</p>
+    <p>/kick [Player] <Reason> - Kicks player</p>
+    <p>/item [ID] [Amount] <Player> - Gives items</p>
+    <p>/home - Teleports you home</p>
+    <p>/sethome - Sets your home</p>
+    <p>/setspawn - Sets the spawn point to your position.</p>
+    <p>/me [Message] - * hey0 says hi!</p>
+    <p>/msg [Player] [Message] - Sends a message to player</p>
+    <p>/spawn - Teleports you to spawn</p>
+    <p>/warp [Warp] - Warps to the specified warp.</p>
+    <p>/listwarps - List all of the warps.</p>
+    <p>/setwarp [Warp] - Sets the warp to your current position.</p>
+    <p>/removewarp [Warp] - Removes the specified warp.</p>
+    <p>/getpos - Displays your current position.</p>
+    <p>/compass - Gives you a compass reading.</p>
+    <p>/time [time:'day:night:check:raw'] (rawtime) - Changes or checks the time</p>
+    <p>/lighter - Gives you a lighter for lighting furnaces</p>
+    <p>/motd - Displays the MOTD</p>
+    <p>/modify - [player] [key] [value] - Type /modify for more info</p>
+    <p>/whitelist [operation (add or remove)] [player]</p>
+    <p>/reservelist [operation (add or remove)] [player]</p>
+    <p>/enableplugin [plugin] - Enables plugin</p>
+    <p>/disableplugin [plugin] - Disables plugin</p>
+    <p>/listplugins - Lists all plugins</p>
+    <p>/reloadplugin [plugin] - Reloads plugin</p>
+    <p>/clearinventory - Clears your inventory</p>
+    <p>/jumpto - Jump to the block that you are looking at</p>
+    <p>/ex [Size] - Extinguish fires</p>
+    <p>/repl [ID] - Switch to the block replacer tool</p>
+    <p>/fixwater [Radius] - Level nearby pools of water</p>
+    <p>/brush [ID] <Radius> <NoReplace?> - Switch to the sphere brush tool</p>
+    <p>/delchunks - Generate a shell script to delete chunks</p>
+    <p>//cut - Cuts the currently selected region</p>
+    <p>//move <Count> <Dir> <LeaveID> - Move the selection</p>
+    <p>//walls [ID] - Build walls</p>
+    <p>//chunk - Select the chunk that you are in</p>
+    <p>/up <Distance> - Go up some distance</p>
+    <p>//hpos 2 - Trace editing position #2</p>
+    <p>/pinegen <Size> <Density> - Make an ugly pine tree forest</p>
+    <p>//hpos 1 - Trace editing position #1</p>
+    <p>//smooth <Iterations> - Smooth an area's heightmap</p>
+    <p>/descend - Go down one level</p>
+    <p>/removeabove <Size> <Height> - Remove blocks above head</p>
+    <p>//count [BlockIDs] - Count the number of blocks in the region</p> 
+    <p>/listsnapshots <Num> - List the 5 newest snapshots</p>
+    <p>//hcyl [ID] [Radius] <Height> - Create a vertical hollow cylinder</p>
+    <p>/single - Switch to single block super pickaxe mode</p>
+    <p>/area [Range] - Switch to area super pickaxe mode</p>
+    <p>/listchunks - Print a list of used chunks</p>
+    <p>/info - Switch to the info tool</p>
+    <p>/clearclipboard - Clear clipboard</p>
+    <p>//save [Filename] - Save clipboard to .schematic</p>
+    <p>//fill [ID] [Radius] <Depth> - Fill a hole</p>
+    <p>// (seems that the command is missing) - Toggles super pick axe.</p>
+    <p>//distr - Get the top block distribution</p>
+    <p>//hsphere [ID] [Radius] <Raised?> - Create a hollow sphere</p>
+    <p>//cyl [ID] [Radius] <Height> - Create a vertical cylinder</p>
+    <p>//stack <Count> <Dir> - Stacks the selection</p>
+    <p>/unstuck - Go up to the first free spot</p>
+    <p>//pos2 - Set editing position #2</p>
+    <p>//pos1 - Set editing position #1</p>
+    <p>//contract [Num] <Dir> - Contracts the selection</p>
+    <p>//replace <FromID> [ToID] - Replace all existing blocks inside region</p>
+    <p>/removenear <ID> <Size> - Remove blocks near you</p>
+    <p>//wand - Gives you the "edit wand"</p>
+    <p>/fixlava [Radius] - Level nearby pools of lava</p>
+    <p>/clearhistory - Clear history</p>
+    <p>//load [Filename] - Load .schematic into clipboard</p>
+    <p>/chunkinfo - Get the filename of the chunk that you are in</p>
+    <p>/pumpkins <Size> - Make a pumpkin forest</p>
+    <p>/none - Switch to no tool</p>
+    <p>/toggleeditwand - Toggles edit wand selection</p>
+    <p>//fillr [ID] [Radius] - Fill a hole fully recursively</p>
+    <p>/butcher <Radius> - Kill nearby mobs</p>
+    <p>/bigtree - Switch to the big tree tool</p>
+    <p>//drain [Radius] - Drain nearby water/lava pools</p>
+    <p>/forestgen <Size> <Density> - Make Notch tree forest</p>
+    <p>/thru - Go through the wall that you are looking at</p>
+    <p>/ascend - Go up one level</p>
+    <p>//sphere [ID] [Radius] <Raised?> - Create a sphere</p>
+    <p>//copy - Copies the currently selected region</p>
+    <p>//limit [Num] - See documentation</p>
+    <p>//overlay [ID] - Overlay the area one layer</p>
+    <p>/recur [Range] - Switch to the recursive super pickaxe mode</p>
+    <p>//outline [ID] - Outline the region with blocks</p>
+    <p>//redo - Redo</p>
+    <p>//rotate [Angle] - Rotate the clipboard</p>
+    <p>//restore <SnapshotID> - Restore a particular snapshot</p>
+    <p>/ceil <Clearance> - Get to the ceiling</p>
+    <p>/toggleplace - Toggle placing at pos #1</p>
+    <p>/snow <Radius> - Simulate snow cover</p>
+    <p>//shift [Num] <Dir> - Shift the selection</p>
+    <p>/replacenear <Size> <FromID> [ToID] - Replace all existing blocks nearby</p>
+    <p>/thaw <Radius> - Unthaw/remove snow</p>
+    <p>//undo - Undo</p>
+    <p>//flip <Dir> - Flip the clipboard</p>
+    <p>/removebelow <Size> <Height> - Remove blocks below position</p>
+    <p>/tree - Switch to the tree tool</p>
+    <p>//paste <AtOrigin?> - Pastes the clipboard</p>
+    <p>//set [ID] - Set all blocks inside region</p>
+    <p>//size - Get size of selected region</p>
+    <p>//use [SnapshotID] - Use a particular snapshot</p>
+    <p>//expand [Num] <Dir> - Expands the selection</p>
+    <p>/stopfire - Globally stop fire spread>/p>
+    <p>/allowfire - Globally re-enable fire spread</p>
+    <p>/magiccarpet - Take yourself wonder by wonder</p>
+    <p>/tpa [target] - Sends teleport request to player.</p>
+    <p>/skipnight - Votes to skip the night. Majority vote wins.</p>
+    <p>/god - Gives immunity to any type of damage.</p>
+    <p>/lwc - Gives protection to chests.</p>
+    <p>/npc - Creates an NPC.</p>
   </body>
 </html>
